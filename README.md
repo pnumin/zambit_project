@@ -8,4 +8,4 @@ Microsoft MakeCode GitHub package authoring | [https://makecode.com/blog/github-
 micro:bit target for PXT | [https://github.com/Microsoft/pxt-microbit](https://github.com/Microsoft/pxt-microbit)
 Microsoft MakeCode | [https://github.com/Microsoft/pxt](https://github.com/Microsoft/pxt)
 typescript |[https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
-마이크로비트|[https://github.com/microsoft](https://github.com/microsoft)
+마이크로|[https://github.com/microsoft](https://github.com/microsoft)
