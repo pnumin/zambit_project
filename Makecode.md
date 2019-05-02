@@ -31,11 +31,11 @@ PXT 주요 특징
     * pxt serve
     
 * 새 프로젝트 만들기
- * 프로젝트 폴더에 새로운 폴더 생성
+  * 프로젝트 폴더에 새로운 폴더 생성
     * cd projects
     * mkdir blink
     * cd blink
-  * 프로젝트 초기화
-    * pxt init
-  * 코드 편집(vs code사용)
-    * code .
+   * 프로젝트 초기화
+     * pxt init
+   * 코드 편집(vs code사용)
+     * code .
