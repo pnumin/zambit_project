@@ -26,4 +26,16 @@ PXT 주요 특징
     * mkdir microbit
     * cd microbit
     * pxt target microbit
+      * pxt가 target을 가리 키도록 pxtcli.json 파일을 설정 
+      * npm install pxt-microbit과 개념적으로 동일
     * pxt serve
+    
+* 새 프로젝트 만들기
+ * 프로젝트 폴더에 새로운 폴더 생성
+    * cd projects
+    * mkdir blink
+    * cd blink
+  * 프로젝트 초기화
+    * pxt init
+  * 코드 편집(vs code사용)
+    * code .
