@@ -14,6 +14,17 @@ PXT의 기본 프로그래밍 언어는 TypeScript의 subset(JavaScript 동적 �
 * an ARM Thumb machine code emitter
 * command-line 패키지 관리
 
+### git pxt clone 후 로컬호스트에서 수행 
+1. 복사할 폴더에서 git clone https://github.com/Microsoft/pxt.git
+2. git에서 복사하면 pakage.json이 생성되어 있음으로 npm init는 생략
+ * nmp init는 pakage.json 파일을 생성하여 모듈의 의존성을 한꺼번에 관리할 수 있음
+3. npm install 
+ * package.json 파일 및 해당 종속성에 나열된 모든 모듈을 설치
+4. npm run build
+ * sciprts를 실행하는 명령어로 scripts에 build명령어 실행
+5. npm install -g pxt
+ * pxt는 빌드 트리 내 어디서나 실행할 수 있도록 함 (한번만 수행)
+
 ### 로컬호스트에서 target 수행 => [로컬호스트 수행 지침](https://makecode.com/cli)
 
 * Command Line Tool
