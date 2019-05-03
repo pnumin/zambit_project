@@ -61,10 +61,12 @@ TypeScript의 하위 집합은 TypeScript의 일반적인 언어 기능 대부�
 </p>
 
 ### GitHub extension 제작
-참고문서 => [https://makecode.com/extensions/github-authoring](https://makecode.com/extensions/github-authoring)
+참고문서 => [https://makecode.com/extensions/github-authoring](https://makecode.com/extensions/github-authoring)<br>
 MakeCode의 시작부터 GitHub에서 호스팅되는 사용자 확장 기능을 사용하여 편집기를 확장하는 기능이 제공되었습니다.<br>
 이러한 확장기능은 makecode에서 자신의 UI를 넣을 수 있다. <br>
 확장기능은먼저 검색을 위해 승인을 받아야하지만, 불법적이지 않으면 정확한 URL을 제공하여 승인없이도 로드 할 수 있습니다.<br>
 지금까지는 패키지 제작에 커맨드 라인 툴 (npm과 git, 필요한 npm 패키지)을 사용해야했기 때문에 패키지 작성자에게 상당한 장애가 될 수 있었습니다.<br>다양한 편집기에서 기능을 사용할 수 있게 됨에 따라 command line이나 다른 툴을 설치하지 않고도 웹앱에서 직접 패키지를 만들어  GitHub에 게시할 수 있습니다.
 
 #### GitHub account and repo
+먼저 아직 GitHub 계정이 없으면 GitHub 계정이 필요합니다.<br>
+계정을 만들었으면 MakeCode 웹 앱을 계정에 연결해야합니다.<br>
