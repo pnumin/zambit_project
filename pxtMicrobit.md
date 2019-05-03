@@ -31,7 +31,7 @@ pxt-microbit는 BBC 마이크로 비트를 프로그래밍 할 수있는 PXT tar
 15. npm link ../pxt-common-packages
 
 ### 개발 환경 폴더 구조
-makecode
+makecode <br>
  L pxt      
  L pxt-common-packages  
  L pxt-microbit
