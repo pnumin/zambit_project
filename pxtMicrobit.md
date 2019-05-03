@@ -43,3 +43,28 @@ makecode <br>
  
  ### Cleaning
  pxt clean
+
+## Developing new extensions 
+새로운 확장 기능의 제작 및 테스트는 웹 편집기에서 직접 수행 할 수 있습니다.<br>
+참고문서 => [https://makecode.com/blog/github-packages](https://makecode.com/blog/github-packages)
+<p>
+ MakeCode는 중학생을 대상으로하는 쉬운 수준의 입력이 가능한 플랫폼이지만 TypeScript로 프로그램을 작성하는 고급 사용자는 무한한 독창성과 복잡성을 사용할 수 있습니다.<br>
+TypeScript의 하위 집합은 TypeScript의 일반적인 언어 기능 대부분을 지원하지만 micro : bit와 같이 매우 제한된 리소스를 사용하여 효율적으로 컴파일 할 수 있습니다.<br>
+ Makecode의 런타임 라이브러리는 대부분의 정의된 모든 블록을 포함하여 정적 typescript로 구현됩니다. 
+또한 모든 기능을 갖춘 모나코 텍스트 편집기를 포함합니다.
+</p>
+<p>
+처음부터 GitHub에서 호스팅하는 사용자가 제공하는 패키지로 확장을 할 수 있도록 하였다. 이러한 패키지는 makecode에서 자체 사용자 인터페이스를 도입 할 수 있습니다. 패키지는 먼저 검색을 위해 승인을 받아야하지만, 불법적이지 않으면 정확한 URL을 제공하여 승인없이도 로드 할 수 있습니다.
+</p>
+<p>
+지금까지는 패키지 제작에 커맨드 라인 툴 (npm과 git, 필요한 npm 패키지)을 사용해야했기 때문에 패키지 작성자에게 상당한 장애가 될 수 있었습니다.<br>다양한 편집기에서 기능을 사용할 수 있게 됨에 따라 command line이나 다른 툴을 설치하지 않고도 웹앱에서 직접 패키지를 만들어  GitHub에 게시할 수 있습니다.
+</p>
+
+### GitHub extension 제작
+참고문서 => [https://makecode.com/extensions/github-authoring](https://makecode.com/extensions/github-authoring)
+MakeCode의 시작부터 GitHub에서 호스팅되는 사용자 확장 기능을 사용하여 편집기를 확장하는 기능이 제공되었습니다.<br>
+이러한 확장기능은 makecode에서 자신의 UI를 넣을 수 있다. <br>
+확장기능은먼저 검색을 위해 승인을 받아야하지만, 불법적이지 않으면 정확한 URL을 제공하여 승인없이도 로드 할 수 있습니다.<br>
+지금까지는 패키지 제작에 커맨드 라인 툴 (npm과 git, 필요한 npm 패키지)을 사용해야했기 때문에 패키지 작성자에게 상당한 장애가 될 수 있었습니다.<br>다양한 편집기에서 기능을 사용할 수 있게 됨에 따라 command line이나 다른 툴을 설치하지 않고도 웹앱에서 직접 패키지를 만들어  GitHub에 게시할 수 있습니다.
+
+#### GitHub account and repo
