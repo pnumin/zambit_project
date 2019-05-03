@@ -35,3 +35,11 @@ makecode <br>
  L pxt      
  L pxt-common-packages  
  L pxt-microbit
+ 
+ ### 로컬 호스트에서 실행
+ pxt serve
+  * cpp 파일을 수정해야 할 필요가있는 경우 --localbuild 플래그를 사용하여 컴파일 : pxt serve --local
+  * 빌드속도를 높이려면 rebundle 옵션 사용 : pxt serve --rebundle
+ 
+ ### Cleaning
+ pxt clean
