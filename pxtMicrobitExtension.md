@@ -24,3 +24,17 @@ namespace basic {
 * color은 hue 값 또는 HTML 색상을 사용합니다.
 * weight는 도구 상자에 범주가 표시되는 위치를 결정합니다. weight가 높을수록 맨 위에 더 가깝게 나타납니다. 
 * icon은 표시할 아이콘의 유니코드 문자입니다. 시맨틱 UI 아이콘 세트는 Font Awesome (작성 당시 v4.5.6)에서 포팅되었으며 전체 목록은 [http://fontawesome.io/icons/](http://fontawesome.io/icons/)에서 찾을 수 있습니다.
+
+
+#### Category groups
+유사한 블록을 그룹화하여 블록 카테고리를 보다 체계적으로 구성할 수 있습니다. 그룹 기능을 사용하면 동일한 그룹의 블록이 도구 상자에 함께 표시되고 그 그룹의 레이블이 그 위에 표시됩니다. 그룹을 정의하려면 네임 스페이스에 groups 속성을 추가하십시오.groups 속성은 그룹 이름의 배열입니다. 그룹을 정의하는 순서는 그룹이 도구 상자에 표시되는 순서입니다. 명명 된 그룹에 할당되지 않은 블록은 레이블을 표시하지 않는 기본 기타 그룹에 배치됩니다. 
+other 그룹은 그룹 순서대로 그룹화되지 않은 블록이 나타나는 위치를 결정하는 데 사용할 수 있습니다.블록을 그룹에 지정할 때 이름은 대소 문자를 구분하므로 블록에 넣은 그룹 이름이 그룹 정의의 그룹 이름과 동일한 지 확인하십시오.
+
+#### 블록
+//% block 속성인 exported functions은 블록 편집기에서 사용할 수 있습니다. 
+```javascript
+//% block
+    export function helloZambit() {
+        basic.showString("Zambit")
+    }
+```
