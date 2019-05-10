@@ -1,7 +1,7 @@
 ## Makecode Block 정의 [https://makecode.com/defining-blocks](https://makecode.com/defining-blocks)
 <p>
  MakeCode API에 주석을 작성하여 블록 편집기에서 표시하는 방법을 설명합니다.<br>
- [playground](https://makecode.com/playground)어떻게 작동하는지 확인해보고 수정해서 새로운 것을 만들어보세요.<br>
+ [playground](https://makecode.com/playground) 어떻게 작동하는지 확인해보고 수정해서 새로운 것을 만들어보세요.<br>
  블록은 API 요소(export function, method, enum 등)의 시작 부분에 주석이 추가되어 정의됩니다.<br>
  속성은 //%의 주석 형식으로 시작하는 주석 행에 지정됩니다. <br>
  모든 //% 주석은 API의 코드가있는 TypeScript 라이브러리 파일에서 찾을 수 있습니다.<br>
